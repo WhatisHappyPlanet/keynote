@@ -1,0 +1,24 @@
+{
+  "name": "keynote",
+  "version": "0.0.1",
+  "description": "Tech Sharing keynote",
+  "scripts": {
+    "dev": "reveal-md md -w",
+    "build": "npm run build:reveal && npm run sw",
+    "build:reveal":"reveal-md md --static dist --scripts ./build/use-sw.js",
+    "sw": "workbox generateSW"
+  },
+  "author": {
+    "name": "brandonxiang",
+    "email": "brandon.xiang@gmail.com",
+    "web": "https://github.com/brandonxiang"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "reveal-md": "^5.1.1",
+    "workbox-cli": "^5.1.4"
+  },
+  "license": "MIT"
+}

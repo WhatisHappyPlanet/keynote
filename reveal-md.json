@@ -1,0 +1,8 @@
+{
+  "title": "New'Keynote",
+  "theme": "solarized",
+  "highlightTheme": "github",
+  "staticDirs": "assets",
+  "css": "styles/index.css",
+  "progress": true
+}
