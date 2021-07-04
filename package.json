@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "reveal-md md -w",
     "build": "npm run build:reveal && npm run sw",
-    "build:reveal":"reveal-md md --static dist --scripts ./build/use-sw.js",
+    "build:reveal":"reveal-md md --static dist",
     "sw": "workbox generateSW"
   },
   "author": {

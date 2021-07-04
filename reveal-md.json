@@ -2,7 +2,8 @@
   "title": "New'Keynote",
   "theme": "solarized",
   "highlightTheme": "github",
-  "staticDirs": "assets",
+  "staticDirs": "public",
   "css": "styles/index.css",
+  "scripts": "public/use-sw.js",
   "progress": true
 }
